@@ -1,0 +1,45 @@
+{
+  "recordType": "CURRENT",
+  "status": "CURRENT",
+  "eventId": null,
+  "eventType": null,
+  "monitorName": "gads-natural-hellofresh-de",
+  "monitorKey": "gads-natural-hellofresh-de:AR17410177287600472065:DE:14d",
+  "modeUsed": "FULL_LIFECYCLE",
+  "region": "DE",
+  "advertiserId": "AR17410177287600472065",
+  "advertiserName": "HelloFresh SE",
+  "creativeId": "CR10179334871072112641",
+  "format": "TEXT",
+  "firstShown": "2026-03-19",
+  "lastShown": "2026-07-28",
+  "primaryAssetUrl": "https://tpc.googlesyndication.com/archive/simgad/12931284136583699646",
+  "sourceUrl": "https://adstransparency.google.com/advertiser/AR17410177287600472065/creative/CR10179334871072112641?region=DE",
+  "assetUrls": [
+    "https://tpc.googlesyndication.com/archive/simgad/12931284136583699646"
+  ],
+  "previous": null,
+  "current": {
+    "advertiserId": "AR17410177287600472065",
+    "advertiserName": "HelloFresh SE",
+    "creativeId": "CR10179334871072112641",
+    "format": "TEXT",
+    "regions": [
+      "DE"
+    ],
+    "firstShown": "2026-03-19",
+    "lastShown": "2026-07-28",
+    "headline": null,
+    "body": null,
+    "destinationUrl": null,
+    "assetUrls": [
+      "https://tpc.googlesyndication.com/archive/simgad/12931284136583699646"
+    ],
+    "primaryAssetUrl": "https://tpc.googlesyndication.com/archive/simgad/12931284136583699646",
+    "sourceUrl": "https://adstransparency.google.com/advertiser/AR17410177287600472065/creative/CR10179334871072112641?region=DE",
+    "assetHash": "eaf0dc6ed9e497d0c5c0dc1395fb76570a61d4a86dd3bdd591d825bd67cbf94d"
+  },
+  "evidence": {},
+  "detectedAt": "2026-07-28T20:13:33.275Z",
+  "schemaVersion": "1.0"
+}

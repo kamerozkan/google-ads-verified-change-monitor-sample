@@ -1,0 +1,45 @@
+{
+  "recordType": "CURRENT",
+  "status": "CURRENT",
+  "eventId": null,
+  "eventType": null,
+  "monitorName": "gads-natural-cocacola-us",
+  "monitorKey": "gads-natural-cocacola-us:AR09597646619583447041:US:14d",
+  "modeUsed": "FULL_LIFECYCLE",
+  "region": "US",
+  "advertiserId": "AR09597646619583447041",
+  "advertiserName": "The Coca-Cola Company",
+  "creativeId": "CR06182333637061509121",
+  "format": "IMAGE",
+  "firstShown": "2023-04-06",
+  "lastShown": "2026-07-28",
+  "primaryAssetUrl": "https://tpc.googlesyndication.com/archive/simgad/1128351092690505264",
+  "sourceUrl": "https://adstransparency.google.com/advertiser/AR09597646619583447041/creative/CR06182333637061509121?region=US",
+  "assetUrls": [
+    "https://tpc.googlesyndication.com/archive/simgad/1128351092690505264"
+  ],
+  "previous": null,
+  "current": {
+    "advertiserId": "AR09597646619583447041",
+    "advertiserName": "The Coca-Cola Company",
+    "creativeId": "CR06182333637061509121",
+    "format": "IMAGE",
+    "regions": [
+      "US"
+    ],
+    "firstShown": "2023-04-06",
+    "lastShown": "2026-07-28",
+    "headline": null,
+    "body": null,
+    "destinationUrl": null,
+    "assetUrls": [
+      "https://tpc.googlesyndication.com/archive/simgad/1128351092690505264"
+    ],
+    "primaryAssetUrl": "https://tpc.googlesyndication.com/archive/simgad/1128351092690505264",
+    "sourceUrl": "https://adstransparency.google.com/advertiser/AR09597646619583447041/creative/CR06182333637061509121?region=US",
+    "assetHash": "f1679de44ef5e0d6a2bf8d019b4f127eda39154beb5ca4b5ac923d088ce7d0be"
+  },
+  "evidence": {},
+  "detectedAt": "2026-07-28T20:14:35.133Z",
+  "schemaVersion": "1.0"
+}

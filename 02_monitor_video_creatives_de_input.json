@@ -1,0 +1,14 @@
+{
+  "advertiserIds": [
+    "AR18354088228836868097"
+  ],
+  "region": "DE",
+  "monitorName": "gads-natural-netflix-de",
+  "mode": "FULL_LIFECYCLE",
+  "lookbackDays": 14,
+  "maxCreativesPerAdvertiser": 1000,
+  "outputMode": "ALL_CHECKED",
+  "includeBaseline": false,
+  "includeTentative": true,
+  "failOnAllTargetsFailed": true
+}

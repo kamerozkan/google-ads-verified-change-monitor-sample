@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Google Ads Creatives and Verified Change Monitor dataset record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "recordType",
+    "status",
+    "eventId",
+    "eventType",
+    "monitorName",
+    "monitorKey",
+    "modeUsed",
+    "region",
+    "advertiserId",
+    "advertiserName",
+    "creativeId",
+    "format",
+    "firstShown",
+    "lastShown",
+    "primaryAssetUrl",
+    "sourceUrl",
+    "assetUrls",
+    "previous",
+    "current",
+    "evidence",
+    "detectedAt",
+    "schemaVersion"
+  ],
+  "properties": {
+    "recordType": {
+      "type": "string",
+      "enum": [
+        "CHANGE",
+        "CURRENT"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "CURRENT",
+        "NEW",
+        "DISCOVERED",
+        "MISSING_ONCE",
+        "STOPPED_CONFIRMED",
+        "RESUMED",
+        "REGION_CHANGED",
+        "ASSET_CHANGED"
+      ]
+    },
+    "eventId": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^evt_[a-f0-9]{32}$"
+    },
+    "eventType": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "NEW",
+        "DISCOVERED",
+        "MISSING_ONCE",
+        "STOPPED_CONFIRMED",
+        "RESUMED",
+        "REGION_CHANGED",
+        "ASSET_CHANGED",
+        null
+      ]
+    },
+    "monitorName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "monitorKey": {
+      "type": "string",
+      "minLength": 1
+    },
+    "modeUsed": {
+      "type": "string",
+      "enum": [
+        "FULL_LIFECYCLE",
+        "NEW_LAUNCH_FEED"
+      ]
+    },
+    "region": {
+      "type": "string",
+      "enum": [
+        "AE",
+        "AT",
+        "AU",
+        "BE",
+        "BR",
+        "CA",
+        "CH",
+        "CZ",
+        "DE",
+        "DK",
+        "ES",
+        "FI",
+        "FR",
+        "GB",
+        "GR",
+        "HU",
+        "IE",
+        "IN",
+        "IT",
+        "JP",
+        "KR",
+        "MX",
+        "NL",
+        "NO",
+        "NZ",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SG",
+        "TR",
+        "US",
+        "ZA"
+      ]
+    },
+    "advertiserId": {
+      "type": "string",
+      "pattern": "^AR[0-9]+$"
+    },
+    "advertiserName": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "creativeId": {
+      "type": "string",
+      "pattern": "^CR[0-9]+$"
+    },
+    "format": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "firstShown": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "lastShown": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "primaryAssetUrl": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "sourceUrl": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
+    "assetUrls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "previous": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": true
+    },
+    "current": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": true
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "detectedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "schemaVersion": {
+      "type": "string",
+      "const": "1.0"
+    }
+  }
+}

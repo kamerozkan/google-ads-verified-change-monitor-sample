@@ -1,0 +1,14 @@
+{
+  "advertiserIds": [
+    "AR17410177287600472065"
+  ],
+  "region": "DE",
+  "monitorName": "gads-natural-hellofresh-de",
+  "mode": "FULL_LIFECYCLE",
+  "lookbackDays": 14,
+  "maxCreativesPerAdvertiser": 1000,
+  "outputMode": "ALL_CHECKED",
+  "includeBaseline": false,
+  "includeTentative": true,
+  "failOnAllTargetsFailed": true
+}

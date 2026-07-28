@@ -1,0 +1,67 @@
+{
+  "recordType": "CHANGE",
+  "status": "ASSET_CHANGED",
+  "eventId": "evt_0298ff21edf6b69d8663de141567b915",
+  "eventType": "ASSET_CHANGED",
+  "monitorName": "replay-demo",
+  "monitorKey": "replay-demo:AR00000000000000000001:US:7d",
+  "modeUsed": "FULL_LIFECYCLE",
+  "region": "US",
+  "advertiserId": "AR00000000000000000001",
+  "advertiserName": "Replay Fixture Advertiser",
+  "creativeId": "CR00000000000000000001",
+  "format": "IMAGE",
+  "firstShown": "2026-07-20",
+  "lastShown": "2026-07-28",
+  "primaryAssetUrl": "https://example.com/creative-v2.png",
+  "sourceUrl": "https://example.com/replayed-source",
+  "assetUrls": [
+    "https://example.com/creative-v2.png"
+  ],
+  "previous": {
+    "advertiserId": "AR00000000000000000001",
+    "advertiserName": "Replay Fixture Advertiser",
+    "creativeId": "CR00000000000000000001",
+    "format": "IMAGE",
+    "regions": [
+      "US"
+    ],
+    "firstShown": "2026-07-20",
+    "lastShown": "2026-07-27",
+    "headline": null,
+    "body": null,
+    "destinationUrl": null,
+    "assetUrls": [
+      "https://example.com/creative-v1.png"
+    ],
+    "primaryAssetUrl": "https://example.com/creative-v1.png",
+    "sourceUrl": "https://example.com/replayed-source",
+    "assetHash": "fixture-hash-v1"
+  },
+  "current": {
+    "advertiserId": "AR00000000000000000001",
+    "advertiserName": "Replay Fixture Advertiser",
+    "creativeId": "CR00000000000000000001",
+    "format": "IMAGE",
+    "regions": [
+      "US"
+    ],
+    "firstShown": "2026-07-20",
+    "lastShown": "2026-07-28",
+    "headline": null,
+    "body": null,
+    "destinationUrl": null,
+    "assetUrls": [
+      "https://example.com/creative-v2.png"
+    ],
+    "primaryAssetUrl": "https://example.com/creative-v2.png",
+    "sourceUrl": "https://example.com/replayed-source",
+    "assetHash": "fixture-hash-v2"
+  },
+  "evidence": {
+    "replayedFixture": true,
+    "scenario": "asset-hash-changed"
+  },
+  "detectedAt": "2026-07-28T20:30:00.000Z",
+  "schemaVersion": "1.0"
+}
