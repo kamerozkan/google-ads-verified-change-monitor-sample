@@ -1,0 +1,68 @@
+{
+  "recordType": "CHANGE",
+  "status": "ASSET_CHANGED",
+  "eventId": "evt_cff6c383d6bbd885af9cb0e05718b96c",
+  "eventType": "ASSET_CHANGED",
+  "monitorName": "gads-natural-hellofresh-de",
+  "monitorKey": "gads-natural-hellofresh-de:AR17410177287600472065:DE:14d",
+  "modeUsed": "FULL_LIFECYCLE",
+  "region": "DE",
+  "advertiserId": "AR17410177287600472065",
+  "advertiserName": "HelloFresh SE",
+  "creativeId": "CR12130442864723230721",
+  "format": "IMAGE",
+  "firstShown": "2024-10-15",
+  "lastShown": "2026-07-28",
+  "primaryAssetUrl": "https://tpc.googlesyndication.com/archive/simgad/17642666242132963182",
+  "sourceUrl": "https://adstransparency.google.com/advertiser/AR17410177287600472065/creative/CR12130442864723230721?region=DE",
+  "assetUrls": [
+    "https://tpc.googlesyndication.com/archive/simgad/17642666242132963182"
+  ],
+  "previous": {
+    "advertiserId": "AR17410177287600472065",
+    "advertiserName": "HelloFresh SE",
+    "creativeId": "CR12130442864723230721",
+    "format": "IMAGE",
+    "regions": [
+      "DE"
+    ],
+    "firstShown": "2024-10-15",
+    "lastShown": "2026-07-27",
+    "headline": null,
+    "body": null,
+    "destinationUrl": null,
+    "assetUrls": [
+      "https://tpc.googlesyndication.com/archive/simgad/6764063185346018569"
+    ],
+    "primaryAssetUrl": "https://tpc.googlesyndication.com/archive/simgad/6764063185346018569",
+    "sourceUrl": "https://adstransparency.google.com/advertiser/AR17410177287600472065/creative/CR12130442864723230721?region=DE",
+    "assetHash": "063e28d9dd540ce3e5e285aa3a6db4278316e7a7dfacc3b87e1fa1fcf1cc7f39"
+  },
+  "current": {
+    "advertiserId": "AR17410177287600472065",
+    "advertiserName": "HelloFresh SE",
+    "creativeId": "CR12130442864723230721",
+    "format": "IMAGE",
+    "regions": [
+      "DE"
+    ],
+    "firstShown": "2024-10-15",
+    "lastShown": "2026-07-28",
+    "headline": null,
+    "body": null,
+    "destinationUrl": null,
+    "assetUrls": [
+      "https://tpc.googlesyndication.com/archive/simgad/17642666242132963182"
+    ],
+    "primaryAssetUrl": "https://tpc.googlesyndication.com/archive/simgad/17642666242132963182",
+    "sourceUrl": "https://adstransparency.google.com/advertiser/AR17410177287600472065/creative/CR12130442864723230721?region=DE",
+    "assetHash": "c75e02da334e9ca73276f86ee3130a3e86ff4beb57d0b2e2790598013f26b130"
+  },
+  "evidence": {
+    "previousAssetHash": "063e28d9dd540ce3e5e285aa3a6db4278316e7a7dfacc3b87e1fa1fcf1cc7f39",
+    "currentAssetHash": "c75e02da334e9ca73276f86ee3130a3e86ff4beb57d0b2e2790598013f26b130",
+    "runId": "gads-natural-hellofresh-de:AR17410177287600472065:DE:14d:2026-07-29T04:05:34.308Z"
+  },
+  "detectedAt": "2026-07-29T04:05:34.308Z",
+  "schemaVersion": "1.0"
+}

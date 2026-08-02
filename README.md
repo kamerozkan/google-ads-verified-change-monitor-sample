@@ -35,9 +35,12 @@ contract-shaped current records:
 - Netflix, DE: 91 rows
 - HelloFresh SE, DE: 342 rows
 
-All three run summaries reported `HEALTHY`, complete pagination, and zero
-verified lifecycle events. That zero is important: a real change was not
-invented for this repository. These are dated sample runs, not a production
+All three baseline summaries reported `HEALTHY`, complete pagination, and zero
+verified lifecycle events. A later scheduled HelloFresh run on 2026-07-29,
+`mjMpc95ADzl1lP48R`, completed all nine source pages on build `0.0.31` and
+produced a natural `ASSET_CHANGED` event for the same creative ID with two
+different direct image URLs and asset hashes. The run charged 340 creative
+scans and five change events. These are dated observations, not a production
 SLA or a guarantee of future source coverage.
 
 ## Run an example
@@ -130,16 +133,17 @@ Never commit an API token.
 </details>
 
 These three inputs reproduce the private task configurations used for the dated
-build `0.0.30` evidence above. They are repository samples, not additional
-public Apify Store examples. Use a stable, unique `monitorName` for each
-advertiser, region, and lookback scope. Avoid overlapping runs with the same
-state scope.
+baseline and scheduled production evidence above. They are repository samples,
+not additional public Apify Store examples. Use a stable, unique `monitorName`
+for each advertiser, region, and lookback scope. Avoid overlapping runs with
+the same state scope.
 
 ## Output examples
 
-The first two records below are real excerpts from successful Apify runs on
-2026-07-28. The third is explicitly a deterministic lifecycle replay made with
-the Actor's real event serializer and fictional fixture data.
+The first two records below are real current-row excerpts from successful Apify
+runs on 2026-07-28. The third is a naturally observed asset change from a
+scheduled production run on 2026-07-29. The fourth remains an explicitly
+labeled deterministic lifecycle replay made with fictional fixture data.
 
 <details>
 <summary><strong>LIVE: current image creative</strong></summary>
@@ -190,6 +194,38 @@ the Actor's real event serializer and fictional fixture data.
 ```
 
 [Open the complete live record](02_live_current_text_output.json)
+
+</details>
+
+<details>
+<summary><strong>LIVE: naturally observed asset change</strong></summary>
+
+Google returned the same HelloFresh creative ID with a different direct image
+URL and asset hash. The scheduled run was `HEALTHY`, exhausted all nine source
+pages, and accepted the lifecycle comparison.
+
+```json
+{
+  "recordType": "CHANGE",
+  "status": "ASSET_CHANGED",
+  "eventId": "evt_cff6c383d6bbd885af9cb0e05718b96c",
+  "eventType": "ASSET_CHANGED",
+  "monitorName": "gads-natural-hellofresh-de",
+  "modeUsed": "FULL_LIFECYCLE",
+  "region": "DE",
+  "advertiserName": "HelloFresh SE",
+  "creativeId": "CR12130442864723230721",
+  "format": "IMAGE",
+  "evidence": {
+    "previousAssetHash": "063e28d9dd540ce3e5e285aa3a6db4278316e7a7dfacc3b87e1fa1fcf1cc7f39",
+    "currentAssetHash": "c75e02da334e9ca73276f86ee3130a3e86ff4beb57d0b2e2790598013f26b130"
+  },
+  "detectedAt": "2026-07-29T04:05:34.308Z",
+  "schemaVersion": "1.0"
+}
+```
+
+[Open the complete live event](03_live_asset_changed_output.json)
 
 </details>
 
