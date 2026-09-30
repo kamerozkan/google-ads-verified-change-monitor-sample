@@ -1,0 +1,15 @@
+{
+  "id": "bpKSpzYrH9GWtHBAN",
+  "name": "google-ads-verified-change-monitor",
+  "title": "Google Ads Transparency Scraper - Creative Monitor",
+  "description": "Google Ads Transparency scraper for exact advertiser IDs. Collect public creatives without Google login or an API key, then monitor verified new, stopped, resumed and changed ads across runs. Export ad data and lifecycle events in JSON for PPC competitor research.",
+  "seoTitle": "Google Ads Transparency Scraper & Creative Monitor",
+  "seoDescription": "Scrape Google Ads Transparency Center creatives by advertiser ID, without login. Monitor competitor ad changes and export structured JSON for reporting.",
+  "isPublic": true,
+  "url": "https://apify.com/kamerozkan/google-ads-verified-change-monitor",
+  "checkedAt": "2026-09-30",
+  "changeScope": "listing metadata and sample documentation only",
+  "runtimeChanged": false,
+  "schemasChanged": false,
+  "examplesRegenerated": false
+}

@@ -1,6 +1,10 @@
 > **Live API with ongoing maintenance:** [Run Google Ads Creatives Scraper and Change Monitor on Apify](https://apify.com/kamerozkan/google-ads-verified-change-monitor)
 
-# Google Ads Creatives and Verified Change Monitor Samples
+# Google Ads Transparency Scraper - Creative Monitor: Samples
+
+Google Ads Transparency scraper for exact advertiser IDs. Collect public creatives without Google login or an API key, then monitor verified new, stopped, resumed and changed ads across runs. Export ad data and lifecycle events in JSON for PPC competitor research.
+
+[Run Google Ads Transparency Scraper - Creative Monitor on Apify](https://apify.com/kamerozkan/google-ads-verified-change-monitor)
 
 [![Run on Apify](https://img.shields.io/badge/Run_on_Apify-Google_Ads_Monitor-8948FF?logo=apify&logoColor=white)](https://apify.com/kamerozkan/google-ads-verified-change-monitor)
 ![Source](https://img.shields.io/badge/Source-Public_Transparency_Center-2ea44f)
